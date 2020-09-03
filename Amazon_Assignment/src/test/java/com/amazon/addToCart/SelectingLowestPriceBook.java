@@ -11,12 +11,8 @@ import com.amazon.genericLibraries.FileLibrary;
 import com.amazon.genericLibraries.WebDriverCommonLibraries;
 import com.amazon.pages.AfterClickingOnNext;
 import com.amazon.pages.HomePage;
-import com.amazon.pages.LoginPage;
-import com.amazon.pages.PasswordPage;
-import com.amazon.pages.ProductPage;
 import com.amazon.pages.SearchResultsPage;
 
-import okhttp3.Call;
 
 @Listeners(com.amazon.genericLibraries.MyListener.class)
 public class SelectingLowestPriceBook extends BaseTest{
